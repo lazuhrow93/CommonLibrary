@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -8,6 +8,9 @@
     <Title>Spicy Wing</Title>
     <PackageTags>LazLibrary2015; Spicy Wing</PackageTags>
     <PackageReleaseNotes>Simple and Why Even Use it</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/lazuhrow93/CommonLibrary</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
 </Project>
