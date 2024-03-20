@@ -12,5 +12,10 @@ namespace SpicyWing.Extensions
         {
             return (subject.ToLower().Equals(expected.ToLower()));
         }
+
+        public static bool NotLike(this string subject, string expected)
+        {
+            return !(subject.Like(expected));
+        }
     }
 }
