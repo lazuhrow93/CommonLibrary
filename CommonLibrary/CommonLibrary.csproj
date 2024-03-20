@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <PackageId>laz-the-developer-spicy-wing</PackageId>
+    <PackageId>SpicyWing.Extensions</PackageId>
     <Title>Spicy Wing</Title>
     <PackageTags>LazLibrary2015; Spicy Wing</PackageTags>
     <PackageReleaseNotes>Simple and Why Even Use it</PackageReleaseNotes>
