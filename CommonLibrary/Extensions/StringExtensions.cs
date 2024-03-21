@@ -10,6 +10,8 @@ namespace SpicyWing.Extensions
     {
         public static bool Like(this string subject, string expected)
         {
+            if (subject == null) return (expected == null);
+            if (expected == null) return false;
             return (subject.ToLower().Equals(expected.ToLower()));
         }
 
